@@ -36,3 +36,7 @@ Open your browser at `http://localhost:5173`.
 - **Minimalist UI:** Clean, responsive design focused on user experience.
 - **Zero-Config DB:** SQLite database is initialized automatically on the first run.
 - **Fast Development:** Powered by Vite for near-instant hot module replacement.
+
+## Known Limitations
+- **Session Persistence:** The current login endpoint validates the user's email and password but does not create an authenticated session. Session management and persistent authentication will be implemented in a future version.
+- **Password Security:** Passwords are hashed using `bcryptjs` before being stored in the database. Passwords are never stored as plain text.
