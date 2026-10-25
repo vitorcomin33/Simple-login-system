@@ -1,21 +1,32 @@
-# React + TypeScript + Vite + shadcn/ui
+# Simple Login System
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+A minimalist and functional login and registration system.
 
-## Adding components
+## 🚀 Tech Stack
 
-To add components to your app, run the following command:
+- **Frontend:** React, Vite, TypeScript, Tailwind CSS, shadcn/ui
+- **Backend:** Node.js, Express, SQLite, Bcryptjs
 
+## 🛠️ How to Run
+
+### 1. Backend Setup
 ```bash
-npx shadcn@latest add button
+cd backend
+npm install
+node server.js
 ```
+The API will be running at `http://localhost:3001`.
 
-This will place the ui components in the `src/components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
+### 2. Frontend Setup
+```bash
+# In a new terminal
+npm install
+npm run dev
 ```
+The application will be available at `http://localhost:5173`.
+
+## ✨ Features
+- User registration with password hashing.
+- Secure login authentication.
+- Minimalist, responsive user interface.
+- Automatic SQLite database initialization.
