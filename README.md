@@ -1,13 +1,13 @@
 # Simple Login System
 
-A minimalist and secure authentication system featuring a React frontend and a Node.js backend.
+A simple login system made by openclaw. I'm using that project to improve my learning on Frameworks, APIs, Database, Front-end and Back-end.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Frontend:** React, Vite, TypeScript, Tailwind CSS, shadcn/ui
 - **Backend:** Node.js, Express, SQLite, Bcryptjs
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 ```bash
@@ -31,7 +31,7 @@ npm run dev
 ```
 Open your browser at `http://localhost:5173`.
 
-## ✨ Features
+## Features
 - **Secure Authentication:** Passwords are encrypted using Bcrypt.
 - **Minimalist UI:** Clean, responsive design focused on user experience.
 - **Zero-Config DB:** SQLite database is initialized automatically on the first run.
